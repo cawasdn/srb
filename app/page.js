@@ -3,7 +3,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 
 export default function Home() {
   return (
-    <div className='bg-[#EBEAE6] h-[100vh] relative'>
+    <div className='bg-[#EBEAE6] relative'>
       <div className='mx-auto max-w-6xl p-5 '>
         <div className='bg-white shadow-xl relative'>
           <div className='bg-[#FCCA45] absolute right-4 translate-y-[-20px]'>
