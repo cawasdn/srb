@@ -1,8 +1,6 @@
-'use client'
-
 import Image from 'next/image'
 
-const About = () => {
+const Projects = () => {
   return (
     <div className='bg-[#EBEAE6] relative'>
       <div className='mx-auto max-w-6xl p-5 '>
@@ -16,8 +14,8 @@ const About = () => {
                 height={100}
               />
             </div>
-            <div className='text-center space-y-5 sm:w-[500px] sm:h-[550px]  mx-auto'>
-              <h1 className='text-xl sm:text-3xl font-bold '>ABOUT ME</h1>
+            <div className='text-center space-y-5 sm:w-[500px] sm:h-[550px] mx-auto'>
+              <h1 className='text-xl sm:text-3xl font-bold '>PROJECTS</h1>
             </div>
           </div>
         </div>
@@ -25,4 +23,4 @@ const About = () => {
     </div>
   )
 }
-export default About
+export default Projects

@@ -10,7 +10,9 @@ const Navbar = () => {
         <div className='space-x-8 hidden sm:flex'>
           <NavItems title='Home' address='/' />
           <NavItems title='About' address='/about' />
+          <NavItems title='Contact' address='/contact' />
         </div>
+        <div className='bg-[#FCCA45] absolute right-4 translate-y-[-20px] hover:rotate-6 cursor-pointer'></div>
       </div>
     </div>
   )

@@ -4,12 +4,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
+import { FaFacebook } from 'react-icons/fa'
 
 export default function Home() {
   const [nav, setNav] = useState(false)
-  const handleNav = () => {
-    setNav(!nav)
-  }
+
+  // const handleNav = () => {
+  //   setNav(!nav)
+  // }
 
   const [img, setImg] = useState('/images/profile.png')
 
@@ -24,13 +26,13 @@ export default function Home() {
     <div className='bg-[#EBEAE6] relative'>
       <div className='mx-auto max-w-6xl p-5 '>
         <div className='bg-white shadow-xl relative'>
-          <div
+          {/* <div
             onClick={handleNav}
             className='bg-[#FCCA45] absolute right-4 translate-y-[-20px] hover:rotate-6 cursor-pointer'
           >
             <HiOutlineMenuAlt4 size={32} className='m-1 sm:hidden' />
-          </div>
-          <div className='pt-8 px-5 sm:p-0 sm:flex sm:pl-6 '>
+          </div> */}
+          <div className='pt-8 px-5 sm:p-0 sm:flex sm:pl-6 ease-in duration-300 '>
             <div
               onMouseEnter={HandleHoverProfile}
               onMouseLeave={HandleLeaveProfile}
@@ -52,17 +54,38 @@ export default function Home() {
                 voluptate illo eos illum cum architecto fugiat voluptatum
                 deserunt nam nobis?
               </p>
-              <div className='flex justify-center gap-6 p-3'>
-                <p className='cursor-pointer bg-[#FCCA45] p-2'>
-                  Look at my work
-                </p>
-                <p className='cursor-pointer bg-[#FCCA45] p-2'>About me</p>
+              <div className='flex justify-center gap-6 p-3 pb-6'>
+                <Link href='/projects'>
+                  <p className='cursor-pointer bg-[#FCCA45] p-2 rotate-3 shadow-xl hover:rotate-12 relative'>
+                    Look at my work
+                    <Image
+                      src='/images/pin.png'
+                      width={14}
+                      height={8}
+                      className='absolute -top-6 left-0'
+                    />
+                  </p>
+                </Link>
+
+                <Link href='/about'>
+                  <p className='cursor-pointer bg-[#FCCA45] p-2 -rotate-6 shadow-xl hover:rotate-0'>
+                    <Image
+                      src='/images/pin.png'
+                      width={14}
+                      height={8}
+                      className='absolute -top-6 -right-1'
+                    />
+                    About me
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
+
+      {/* Navigation */}
+      {/* <div
         className={
           nav
             ? 'fixed top-0 right-0 left-0 bottom-0 bg-black/60 z-20 duration-300'
@@ -80,7 +103,7 @@ export default function Home() {
             onClick={handleNav}
             className='flex w-full items-center justify-between'
           >
-            <p>Srb</p>
+            <p className='font-bold'>ShaneRB</p>
             <div
               onClick={handleNav}
               className='bg-[#FCCA45] absolute right-5 top-10 translate-y-[-20px] hover:rotate-6'
@@ -113,7 +136,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
