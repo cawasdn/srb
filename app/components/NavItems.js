@@ -1,7 +1,11 @@
-const NavItems = ({ title }) => {
+import Link from 'next/link'
+
+const NavItems = ({ title, address }) => {
   return (
     <div>
-      <nav className='logo'>{title}</nav>
+      <Link href={address}>
+        <div className='logo'>{title}</div>
+      </Link>
     </div>
   )
 }
