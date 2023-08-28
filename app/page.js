@@ -15,13 +15,6 @@ export default function Home() {
 
   const [img, setImg] = useState('/images/profile.png')
 
-  const HandleHoverProfile = () => {
-    setImg('/images/profile1.png')
-  }
-  const HandleLeaveProfile = () => {
-    setImg('/images/profile.png')
-  }
-
   return (
     <div className='bg-[#EBEAE6] relative'>
       <div className='mx-auto max-w-6xl p-5 '>
@@ -33,11 +26,7 @@ export default function Home() {
             <HiOutlineMenuAlt4 size={32} className='m-1 sm:hidden' />
           </div> */}
           <div className='pt-8 px-5 sm:p-0 sm:flex sm:pl-6 ease-in duration-300 '>
-            <div
-              onMouseEnter={HandleHoverProfile}
-              onMouseLeave={HandleLeaveProfile}
-              className='p-5 sm:w-[500px] sm:h-[500px]'
-            >
+            <div className='p-5 sm:w-[500px] sm:h-[500px]'>
               <Image src={img} alt='profile' width={350} height={100} />
             </div>
             <div className='text-center space-y-5 sm:w-[500px] sm:h-[550px] sm: mt-7'>
