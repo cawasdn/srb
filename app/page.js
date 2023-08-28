@@ -38,7 +38,7 @@ export default function Home() {
               onMouseLeave={HandleLeaveProfile}
               className='p-5 sm:w-[500px] sm:h-[500px]'
             >
-              <Image src={img} alt='' width={350} height={100} />
+              <Image src={img} alt='profile' width={350} height={100} />
             </div>
             <div className='text-center space-y-5 sm:w-[500px] sm:h-[550px] sm: mt-7'>
               <div className=''>
@@ -60,6 +60,7 @@ export default function Home() {
                     Look at my work
                     <Image
                       src='/images/pin.png'
+                      alt='pin'
                       width={14}
                       height={8}
                       className='absolute -top-6 left-0'
@@ -71,6 +72,7 @@ export default function Home() {
                   <p className='cursor-pointer bg-[#FCCA45] p-2 -rotate-6 shadow-xl hover:rotate-0'>
                     <Image
                       src='/images/pin.png'
+                      alt='pin'
                       width={14}
                       height={8}
                       className='absolute -top-6 -right-1'

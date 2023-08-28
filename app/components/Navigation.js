@@ -47,7 +47,7 @@ const Navigation = () => {
             </div>
           </div>
           <div className='border-b border-gray-300 my-4'>
-            <p className='w-[85%] md:w-[90%] py-4'>let's work together!</p>
+            <p className='w-[85%] md:w-[90%] py-4'>let&apos;s work together!</p>
           </div>
           <div className='py-4 flex flex-col '>
             <ul className='uppercase font-bold [&>*]:text-lg'>
@@ -65,7 +65,7 @@ const Navigation = () => {
               </Link>
             </ul>
             <div className='pt-28 space-y-3'>
-              <p className='tracking-widest font-bold '>Let's Connect</p>
+              <p className='tracking-widest font-bold '>Let&apos;s Connect</p>
               <div className='flex space-x-3 '>
                 <Link
                   href='https://www.facebook.com/ladychin.rose'

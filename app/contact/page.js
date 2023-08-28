@@ -9,7 +9,7 @@ const Contact = () => {
             <div className='hidden sm:mx-auto sm:block'>
               <Image
                 src='/images/profile.png'
-                alt=''
+                alt='profile'
                 width={350}
                 height={100}
               />
