@@ -47,7 +47,7 @@ const Navigation = () => {
             </div>
           </div>
           <div className='border-b border-gray-300 my-4'>
-            <p className='w-[85%] md:w-[90%] py-4'>let&apos;s work together!</p>
+            <p className='w-[85%] md:w-[90%] py-4'>let&apos;s work together.</p>
           </div>
           <div className='py-4 flex flex-col '>
             <ul className='uppercase font-bold [&>*]:text-lg'>
