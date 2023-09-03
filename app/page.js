@@ -45,7 +45,7 @@ export default function Home() {
               </p>
               <div className='flex justify-center gap-6 p-3 pb-6'>
                 <Link href='/projects'>
-                  <p className='cursor-pointer bg-[#FCCA45] p-2 rotate-3 shadow-xl hover:rotate-12 relative'>
+                  <p className='cursor-pointer bg-[#FCCA45] p-2 rotate-3 shadow-xl hover:rotate-12 relative sm:ease-in sm:duration-150'>
                     Look at my work
                     <Image
                       src='/images/pin.png'
@@ -58,7 +58,7 @@ export default function Home() {
                 </Link>
 
                 <Link href='/about'>
-                  <p className='cursor-pointer bg-[#FCCA45] p-2 -rotate-6 shadow-xl hover:rotate-0'>
+                  <p className='cursor-pointer bg-[#FCCA45] p-2 -rotate-6 shadow-xl hover:rotate-0 sm:ease-in sm:duration-150'>
                     <Image
                       src='/images/pin.png'
                       alt='pin'
