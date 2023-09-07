@@ -15,7 +15,9 @@ const Projects = () => {
               />
             </div>
             <div className='text-center space-y-5 sm:w-[500px] sm:h-[550px] mx-auto'>
-              <h1 className='text-xl sm:text-3xl font-bold '>PROJECTS</h1>
+              <h1 className='text-xl sm:text-3xl font-bold sm:mt-5'>
+                PROJECTS
+              </h1>
             </div>
           </div>
         </div>
