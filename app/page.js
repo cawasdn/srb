@@ -39,8 +39,9 @@ export default function Home() {
                 </div>
               </div>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                repellat!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis architecto quas earum accusamus vitae ut
+                repudiandae, eum eos. Ullam eligendi earum doloremque atque?
               </p>
               <div className='flex justify-center gap-6 p-3 pb-6'>
                 <Link href='/projects'>
