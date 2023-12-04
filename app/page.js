@@ -42,7 +42,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit delectus minus officiis voluptas porro? Suscipit
                 obcaecati quos provident veritatis! Aliquam beatae non est
-                voluptatibus saepe unde fuga, ipsam esse animi???????
+                voluptatibus saepe unde fuga, ipsam esse animi????????
               </p>
               <div className='flex justify-center gap-6 p-3 pb-6'>
                 <Link href='/projects'>
