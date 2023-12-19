@@ -44,7 +44,7 @@ export default function Home() {
                 obcaecati quos provident veritatis! Aliquam beatae non est
                 voluptatibus saepe unde fuga, ipsam esse animi????????????
               </p>
-              <div className='flex justify-center gap-6 p-3 pb-6'>
+              <div className='flex justify-center gap-6 p-3 pb-5'>
                 <Link href='/projects'>
                   <p className='cursor-pointer bg-[#FCCA45] p-2 rotate-3 shadow-xl hover:rotate-12 relative sm:ease-in sm:duration-150'>
                     Look at my work
